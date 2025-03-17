@@ -1,0 +1,32 @@
+{
+  "name": "fornus-irmandade",
+  "version": "1.0.0",
+  "description": "API foruns para o meu site dominion 7",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carmo-montana/Fornus-irmandade.git"
+  },
+  "author": "Pedro Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carmo-montana/Fornus-irmandade/issues"
+  },
+  "homepage": "https://github.com/carmo-montana/Fornus-irmandade#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/nodemon": "^1.19.6",
+    "@types/uuid": "^10.0.0",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "uuid": "^11.1.0"
+  }
+}
