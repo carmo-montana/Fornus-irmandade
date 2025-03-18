@@ -1,0 +1,142 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .social a {
+    margin-left: 10px;
+    color: white;
+}
+
+/* Convite para Participar */
+.invite {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.invite a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Menu de Opções */
+aside {
+    width: 200px;
+    float: left;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Tabela de Fóruns */
+.forums {
+    margin-left: 230px;
+    padding: 20px;
+}
+
+.forums table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.forums th, .forums td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.forums th {
+    background-color: #f4f4f4;
+}
+
+.forums td a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Tópicos em Destaque */
+.highlights {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.highlights ul {
+    list-style: none;
+}
+
+.highlights ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.highlights ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
